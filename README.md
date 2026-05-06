@@ -1,202 +1,54 @@
-# Boas Práticas ISP
+# Boas Praticas ISP
 
-> Marco de Maturidade Operacional, Governança e Evolução Técnica para Provedores de Internet
+Marco de maturidade operacional, governanca e evolucao tecnica para provedores de internet.
 
-## 🎯 Sobre o Projeto
+## Visao Geral
 
-**Boas Práticas ISP** é um serviço de consultoria especializado em transformar a infraestrutura operacional de provedores de internet (ISPs). Oferecemos um **roadmap estruturado de 12 meses** que leva suas operações da maturidade inicial à elite operacional.
+Boas Praticas ISP e um projeto de consultoria tecnica para estruturar operacoes de provedores de internet com foco em governanca, seguranca, observabilidade, redundancia, treinamento de equipe e crescimento sustentavel.
 
-### O Problema
+O objetivo e transformar operacoes dependentes de intervencoes manuais em ambientes documentados, monitorados e preparados para evolucao tecnica.
 
-Muitos provedores de internet enfrentam:
+## Problema
 
-- ❌ Falta de governança de TI definida
-- ❌ Infraestrutura desorganizada e manual
-- ❌ Vulnerabilidades de segurança
-- ❌ Equipes técnicas sem autonomia
-- ❌ Processos não alinhados a padrões internacionais
-- ❌ Escalabilidade limitada
+Muitos ISPs crescem rapidamente sem consolidar processos de engenharia, inventario, seguranca, monitoramento e treinamento. Isso cria riscos operacionais como:
 
-### A Solução
+- baixa rastreabilidade de mudancas;
+- excesso de acesso direto a equipamentos criticos;
+- monitoramento incompleto;
+- dificuldade de padronizar configuracoes;
+- dependencia de conhecimento informal;
+- baixa previsibilidade em incidentes e expansoes.
 
-Nosso framework de 5 fases transforma sua operação:
+## Proposta
 
-1. **Alicerce Estrutural** - Infraestrutura base e virtualização
-2. **Governança e Segurança** - Padrões, controle de acesso, isolamento
-3. **Estabilização do Cliente** - PPPoE, redundância, monitoramento
-4. **Autonomia e Inteligência** - Transferência de conhecimento completa
-5. **Elite Operacional** - Rede estável, segura e competitiva
+O framework organiza a evolucao tecnica em cinco fases:
 
----
+1. Alicerce estrutural: virtualizacao, servidores base, backup e laboratorio.
+2. Governanca e seguranca: controle de acesso, segmentacao, logs e politicas.
+3. Estabilizacao do cliente: PPPoE, redundancia, monitoramento e boas praticas operacionais.
+4. Autonomia e inteligencia: transferencia de conhecimento, documentacao e rotinas tecnicas.
+5. Elite operacional: operacao estavel, segura, auditavel e preparada para escala.
 
-## 🚀 Principais Benéficos
+## Componentes Tecnicos
 
-| Benéficio | Descrição |
-|-----------|-------------|
-| **Autonomia Técnica** | Seu time gerencia operações com total independência |
-| **Visibilidade** | Governança completa da rede com logs centralizados |
-| **Segurança Reforçada** | Arquitetura blindada com VRF e controle de acesso |
-| **Estabilidade** | Redundância inteligente com BGP/iBGP |
-| **Alinhamento Internacional** | Processos alinhados a padrões ISO/IEC |
-| **Crescimento Sustentável** | Infraestrutura preparada para escalabilidade |
+- Terminal Server para acesso centralizado.
+- DNS, backup e logs centralizados.
+- Zabbix e dashboards operacionais.
+- Segmentacao com VRF.
+- BGP/iBGP e boas praticas de roteamento.
+- Laboratorio virtualizado para testes e capacitacao.
+- Documentacao de operacao, mudancas e resposta a incidentes.
 
----
+## Repositorio
 
-## 💿 Processo de Atendimento
+- `index.html`: landing page do projeto.
+- `ROADMAP.md`: planejamento detalhado das fases.
+- `CONTATO.md`: estrutura de contato comercial a ser customizada.
 
-### 1. Consulta Inicial (Grátis)
-- Levantamento de sua infraestrutura atual
-- Identificação de desafios e oportunidades
-- Apresentação do roadmap personalizado
+## Contexto Profissional
 
-### 2. Diagnóstico Detalhado
-- Auditória completa da infraestrutura
-- Avaliação de maturidade operacional
-- Relatório com recomendações específicas
+Este projeto reflete experiencia em infraestrutura de redes, operacao multi-vendor, monitoramento, documentacao tecnica, redes opticas e capacitacao de equipes.
 
-### 3. Implementação (12 Meses)
-- Cocriação com sua equipe
-- Simulações em laboratório virtualizado
-- Treinamento contínuo
-- Acompanhamento personalizado
+## Licenca
 
-### 4. Transferência de Conhecimento
-- Autonomia total da equipe
-- Documentação profissional
-- Suporte pós-implementação
-
----
-
-## 🛠️ Infraestrutura Proposta
-
-### Governaça de TI
-
-**Mínimo: 1-4 Servidores Virtualizados**
-
-- **Terminal Server (TS)** - Acesso seguro e centralizado
-- **DNS** - Resolução de nomes
-- **Zabbix** - Monitoramento e alertas
-- **Logs Centralizados** - ELK Stack ou similar
-- **Backup Automático** - Estratégia de DR/BC
-
-**Benefícios:**
-- ✅ Visibilidade total da rede
-- ✅ Controle de acesso padronizado
-- ✅ Histórico confiável de incidentes
-- ✅ Mitigaação de riscos operacionais
-
-### Blindagem e Segurança
-
-- **Migração para IPs Privados** - Reduz exposição
-- **VRF (Virtual Routing and Forwarding)** - Isola lógica de tráfego
-- **Auditoria via Logs** - Rastreabilidade completa
-- **Acesso via Terminal Server** - Medicado e controlado
-
-### Estabilidade do Cliente
-
-- **PPPoE Profissional** - Com MTU otimizado
-- **Redundância BGP/iBGP** - Rotas inteligentes
-- **Monitoramento Preventivo** - Triggers inteligentes
-- **Laboratório Virtualizado** - Testes sem impacto
-
----
-
-## 📚 Metodologia
-
-### Pilares
-
-1. **Especialização**
-   - Consultoria técnica especializada em ISPs
-   - Conhecimento profundo de telecomunicações
-
-2. **Colaboração**
-   - Participação ativa da sua equipe
-   - Cocriação de soluções
-
-3. **Praticidade**
-   - Aprendizado orientado a problemas reais
-   - Simulações contínuas
-
-4. **Autonomia**
-   - Transferência completa de conhecimento
-   - Seu time gerencia tudo ao final
-
-### Duração e Cronograma
-
-**12 Meses de Transformação**
-
-- **Mês 1-3**: Alicerce Estrutural
-- **Mês 4-6**: Governança e Segurança  
-- **Mês 7-9**: Estabilização do Cliente
-- **Mês 10-12**: Autonomia e Elite
-
----
-
-## 💱 Invesúfetimento
-
-O investimento varia conforme:
-- Tamanho da infraestrutura atual
-- Complexidade operacional
-- Número de fases a implementar
-
-**Solicite uma proposta personalizada** após a consulta inicial.
-
----
-
-## 📄 Documentação
-
-### Arquivos Importantes
-
-- `index.html` - Website de venda com landing page completa
-- `README.md` - Este arquivo (documentação geral)
-- `ROADMAP.md` - Planejamento detalhado das 5 fases
-- `CONTATO.md` - Informações de contato
-
-### Estrutura de Pastas (Sugerido)
-
-```
-boas-praticas-isp/
-├── index.html              # Página inicial
-├── README.md              # Documentação geral
-├── ROADMAP.md            # Detalhe das 5 fases
-├── assets/
-│  ├── logo.svg
-│  ├── hero.png
-│  └── icons/
-├── docs/
-│  ├── GOVERNANCA-IT.md
-│  ├── SEGURANCA.md
-│  └── FAQ.md
-└── CONTATO.md            # Informações de contato
-```
-
----
-
-## 👥 Especialidades da Equipe
-
-- 📍 Telecomunicações e Infraestrutura de Rede
-- 🔐 Segurança de Rede e Mitigaação de DDoS
-- 🔨 Arquitetura de Sistemas
-- 💡 Consultoria Estratégica
-- 📖 Treinamento Técnico
-
----
-
-## 💾 Contato
-
-Solicite sua consulta gratuita:
-
-- **WhatsApp**: [Adicionar número]
-- **E-mail**: [Adicionar e-mail]
-- **Telefone**: [Adicionar telefone]
-- **Website**: [URL do site]
-
----
-
-## 📁 Licença
-
-Projeto proprietário. É proibida a cópia ou distribuição sem autorização.
-
----
-
-**Transformando a infraestrutura de ISPs em soluções de classe mundial.** 🚀
+Projeto proprietario. O codigo e os materiais deste repositorio nao possuem licenca aberta de uso, copia ou redistribuicao.
